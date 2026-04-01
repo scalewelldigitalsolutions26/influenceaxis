@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#06111F"/>
+  <path d="M-104 593C118 431.379 309.761 428.773 496 551.247C667.912 664.247 850.018 667.702 1049 551.247C1179.43 474.923 1291.44 469.17 1396 520.5V630H-104V593Z" fill="url(#paint0_linear)" fill-opacity="0.9"/>
+  <circle cx="984" cy="138" r="182" fill="#F0A07A" fill-opacity="0.16"/>
+  <circle cx="175" cy="86" r="130" fill="#D14A34" fill-opacity="0.16"/>
+  <rect x="86" y="91" width="108" height="108" rx="28" fill="url(#paint1_linear)"/>
+  <rect x="86" y="91" width="108" height="108" rx="28" fill="url(#paint2_radial)"/>
+  <path d="M112 145H168" stroke="rgba(255,255,255,0.18)" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M140 117V173" stroke="rgba(255,255,255,0.18)" stroke-width="3.4" stroke-linecap="round"/>
+  <circle cx="140" cy="145" r="22" stroke="rgba(255,255,255,0.2)" stroke-width="3.4"/>
+  <path d="M120 164L159.6 124.4" stroke="white" stroke-width="8.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M151.2 124.6H159.6V133" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M117.6 131.4C121.8 123.8 130 119 139 119C147.2 119 154.8 123 159.6 129.6" stroke="#F3B39A" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M121.4 167C126.4 171.4 132.8 174 140 174C149 174 157.4 169.8 162.6 162.8" stroke="rgba(255,255,255,0.62)" stroke-width="3.4" stroke-linecap="round"/>
+  <circle cx="120" cy="164" r="5.2" fill="#FFE6D8"/>
+  <circle cx="159.6" cy="124.4" r="5.2" fill="#FFE6D8"/>
+  <circle cx="140" cy="145" r="9.6" fill="#0B1119" stroke="white" stroke-width="3.2"/>
+  <circle cx="140" cy="145" r="4" fill="#D14A34"/>
+  <text x="86" y="282" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="62" font-weight="700">Influence Axis</text>
+  <text x="86" y="346" fill="#E6B7A2" font-family="Avenir Next, Segoe UI, sans-serif" font-size="28">Premium brand, content, web, and growth systems</text>
+  <text x="86" y="458" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="42" font-weight="700">We Build Brands That Dominate Digital</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="173" y1="377" x2="1103" y2="706" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B221B"/>
+      <stop offset="1" stop-color="#D14A34"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="97" y1="97" x2="188" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="1" stop-color="#D14A34"/>
+    </linearGradient>
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(166 118) rotate(126.573) scale(70.6856)">
+      <stop stop-color="#F3B39A" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#F3B39A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

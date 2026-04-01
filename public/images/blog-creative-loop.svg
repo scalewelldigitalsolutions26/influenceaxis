@@ -1,0 +1,20 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="960" rx="40" fill="#091523"/>
+  <rect x="96" y="96" width="1408" height="768" rx="34" fill="url(#paint0_linear)"/>
+  <circle cx="1248" cy="256" r="180" fill="#F0A07A" fill-opacity="0.18"/>
+  <circle cx="348" cy="722" r="190" fill="#D14A34" fill-opacity="0.18"/>
+  <text x="156" y="234" fill="#D5E6FF" font-family="Avenir Next, Segoe UI, sans-serif" font-size="24" font-weight="700" letter-spacing="6">CONTENT SYSTEMS</text>
+  <text x="156" y="360" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="76" font-weight="700">The Modern Creative Loop</text>
+  <text x="156" y="450" fill="#D7DDE8" font-family="Avenir Next, Segoe UI, sans-serif" font-size="40">Clear roles, faster approvals, better content velocity</text>
+  <path d="M266 656C354.889 557.333 480.667 522.667 643.333 552C806 581.333 940 555.333 1045.33 474C1150.67 392.667 1271.89 373.333 1409 416" stroke="white" stroke-opacity="0.45" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="266" cy="656" r="22" fill="white"/>
+  <circle cx="643" cy="552" r="22" fill="#F0A07A"/>
+  <circle cx="1045" cy="474" r="22" fill="#F6C2AE"/>
+  <circle cx="1409" cy="416" r="22" fill="white"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="140" y1="124" x2="1454" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B221B"/>
+      <stop offset="1" stop-color="#06111F"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="960" rx="40" fill="#06111F"/>
+  <circle cx="1360" cy="742" r="242" fill="#D14A34" fill-opacity="0.22"/>
+  <circle cx="286" cy="166" r="166" fill="#F0A07A" fill-opacity="0.16"/>
+  <rect x="116" y="116" width="1368" height="728" rx="34" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.08"/>
+  <text x="156" y="234" fill="#F0A07A" font-family="Avenir Next, Segoe UI, sans-serif" font-size="24" font-weight="700" letter-spacing="6">PERFORMANCE MARKETING</text>
+  <text x="156" y="350" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="74" font-weight="700">The New Paid Growth Playbook</text>
+  <text x="156" y="438" fill="#C8D5E5" font-family="Avenir Next, Segoe UI, sans-serif" font-size="40">Creative testing, stronger landing pages, and executive-readable metrics</text>
+  <rect x="156" y="576" width="446" height="170" rx="30" fill="#6B221B"/>
+  <text x="194" y="636" fill="#F6C2AE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="4">CAC EFFICIENCY</text>
+  <text x="194" y="712" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="60" font-weight="700">-27%</text>
+  <rect x="650" y="576" width="326" height="170" rx="30" fill="#8A2C1F"/>
+  <text x="688" y="636" fill="#F6C2AE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="4">ROAS</text>
+  <text x="688" y="712" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="60" font-weight="700">3.8x</text>
+  <rect x="1024" y="576" width="304" height="170" rx="30" fill="#B13A29"/>
+  <text x="1062" y="636" fill="#F6C2AE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="4">CVR UPLIFT</text>
+  <text x="1062" y="712" fill="white" font-family="Avenir Next, Segoe UI, sans-serif" font-size="60" font-weight="700">+42%</text>
+</svg>
