@@ -10,10 +10,10 @@ export const siteConfig = {
   location: "Mumbai, India",
   address: "Influence Axis House, BKC, Mumbai 400051",
   social: {
-    instagram: "https://instagram.com",
-    x: "https://x.com",
-    linkedin: "https://linkedin.com",
-    youtube: "https://youtube.com"
+    instagram: "https://www.instagram.com/influenceaxis1/",
+    x: "https://x.com/InfluenceAxis",
+    linkedin: "https://www.linkedin.com/in/influence-axis-6b4522401/",
+    youtube: "https://www.youtube.com/channel/UC2G2v7S8BMoovsbDbFwGaSg"
   }
 } as const;
 
