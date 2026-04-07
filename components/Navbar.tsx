@@ -7,7 +7,7 @@ import { useState } from "react";
 
 import { Logo } from "@/components/Logo";
 import { OpenQuoteButton } from "@/components/OpenQuoteButton";
-import { navigation } from "@/lib/site";
+import { navigation, siteConfig } from "@/lib/site";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="shell">
         <div className="rounded-[24px] border border-white/70 bg-white/72 px-4 py-2 shadow-[0_24px_80px_rgba(7,17,31,0.12)] backdrop-blur-2xl md:px-5 md:py-2.5">
           <div className="flex items-center justify-between gap-3">
-            <Logo showDescriptor={false} />
+            <Logo compact showBrandText />
 
             <nav className="hidden items-center gap-1.5 lg:flex">
               {navigation.map((item) => {
@@ -79,6 +79,9 @@ export default function Navbar() {
                 })}
                 <OpenQuoteButton className="mt-2 w-full">Get Quote</OpenQuoteButton>
               </nav>
+              <p className="mt-3 px-1 text-[0.72rem] font-medium uppercase tracking-[0.3em] text-[#8f4d42]/72">
+                {siteConfig.name}
+              </p>
             </div>
           ) : null}
         </div>

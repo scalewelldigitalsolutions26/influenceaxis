@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-end">
           <AnimatedInView className="max-w-4xl">
             <p className="eyebrow border-white/15 bg-white/10 text-white/70">
-              Premium Digital Agency
+              Influence Axis
             </p>
             <h1 className="mt-8 text-5xl font-semibold tracking-tight text-white md:text-7xl md:leading-[0.98]">
               We build digital brands that look sharper, move faster, and convert harder.
