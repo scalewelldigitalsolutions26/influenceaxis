@@ -5,7 +5,7 @@ export const siteConfig = {
     "Influence Axis is a modern growth agency helping ambitious companies scale through branding, performance, content, and web experiences.",
   url: "https://influenceaxis.com",
   ogImage: "/influence-axis-logo.png",
-  email: "hello@influenceaxis.com",
+  email: "influenceaxis@influenceaxis.in",
   phone: "+91 98765 43210",
   location: "Mumbai, India",
   address: "Influence Axis House, BKC, Mumbai 400051",
@@ -132,6 +132,6 @@ export const privacySections = [
   {
     title: "Your Rights",
     body:
-      "You may request access, correction, or deletion of your submitted data by contacting us at hello@influenceaxis.com."
+      "You may request access, correction, or deletion of your submitted data by contacting us at influenceaxis@influenceaxis.in."
   }
 ];
