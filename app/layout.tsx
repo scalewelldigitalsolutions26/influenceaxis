@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: absoluteUrl(siteConfig.ogImage),
-        width: 1200,
-        height: 630,
+        width: 6250,
+        height: 6250,
         alt: `${siteConfig.name} preview image`
       }
     ]
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     images: [absoluteUrl(siteConfig.ogImage)]
   },
   icons: {
-    icon: "/icon.svg",
-    shortcut: "/icon.svg",
-    apple: "/icon.svg"
+    icon: "/influence-axis-logo.png",
+    shortcut: "/influence-axis-logo.png",
+    apple: "/influence-axis-logo.png"
   }
 };
 

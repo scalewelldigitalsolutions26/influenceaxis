@@ -41,8 +41,8 @@ export function buildMetadata({
       images: [
         {
           url: image,
-          width: 1200,
-          height: 630,
+          width: 6250,
+          height: 6250,
           alt: `${siteConfig.name} preview image`
         }
       ]
@@ -62,7 +62,7 @@ export function createOrganizationSchema() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: absoluteUrl("/icon.svg"),
+    logo: absoluteUrl("/influence-axis-logo.png"),
     email: siteConfig.email,
     telephone: siteConfig.phone,
     address: {
@@ -120,7 +120,7 @@ export function createArticleSchema(post: BlogPost) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: absoluteUrl("/icon.svg")
+        url: absoluteUrl("/influence-axis-logo.png")
       }
     },
     mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`)

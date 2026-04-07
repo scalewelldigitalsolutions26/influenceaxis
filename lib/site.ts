@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     "Influence Axis is a modern growth agency helping ambitious companies scale through branding, performance, content, and web experiences.",
   url: "https://influenceaxis.com",
-  ogImage: "/images/og-company.svg",
+  ogImage: "/influence-axis-logo.png",
   email: "hello@influenceaxis.com",
   phone: "+91 98765 43210",
   location: "Mumbai, India",

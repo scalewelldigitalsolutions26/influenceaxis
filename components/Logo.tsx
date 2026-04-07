@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 
-import { BrandMark } from "@/components/BrandMark";
 import { siteConfig } from "@/lib/site";
 
 type LogoProps = {
@@ -14,47 +14,24 @@ export function Logo({
   theme = "light",
   showDescriptor = true
 }: LogoProps) {
-  const isDark = theme === "dark";
+  const widthClass = compact
+    ? "w-[8.5rem] sm:w-[9.5rem]"
+    : showDescriptor
+      ? "w-[13rem] sm:w-[15.5rem]"
+      : "w-[10rem] sm:w-[12rem]";
+  const shadowClass =
+    theme === "dark" ? "drop-shadow-[0_18px_30px_rgba(0,0,0,0.32)]" : "";
 
   return (
-    <Link
-      href="/"
-      className={`inline-flex items-center gap-3 text-sm font-semibold tracking-tight ${
-        isDark ? "text-white" : "text-ink"
-      }`}
-      aria-label={`${siteConfig.name} home`}
-    >
-      <BrandMark className="h-12 w-12 shrink-0" />
-      {!compact && (
-        showDescriptor ? (
-          <span className="flex flex-col leading-none">
-            <span
-              className={`text-[0.68rem] uppercase tracking-[0.3em] ${
-                isDark ? "text-white/45" : "text-slate"
-              }`}
-            >
-              Growth Systems
-            </span>
-            <span
-              className={`mt-1 text-[1.02rem] font-semibold ${
-                isDark ? "text-white" : "text-ink"
-              }`}
-            >
-              {siteConfig.name}
-            </span>
-          </span>
-        ) : (
-          <span className="relative inline-flex flex-col leading-none">
-            <span className="text-[0.58rem] font-semibold uppercase tracking-[0.34em] text-[#9f4b41]/72">
-              Growth Agency
-            </span>
-            <span className="mt-1 bg-[linear-gradient(135deg,#7a1f16_0%,#ab2f23_48%,#d14a34_100%)] bg-clip-text text-[0.98rem] font-semibold tracking-[0.08em] text-transparent sm:text-[1.06rem]">
-              {siteConfig.name}
-            </span>
-            <span className="mt-2 h-px w-full bg-[linear-gradient(90deg,rgba(122,31,22,0.75),rgba(209,74,52,0.12))]" />
-          </span>
-        )
-      )}
+    <Link href="/" className="inline-flex items-center" aria-label={`${siteConfig.name} home`}>
+      <Image
+        src="/influence-axis-logo.png"
+        alt={siteConfig.name}
+        width={6250}
+        height={6250}
+        sizes="(max-width: 640px) 160px, (max-width: 1024px) 190px, 248px"
+        className={`h-auto ${widthClass} shrink-0 ${shadowClass}`}
+      />
     </Link>
   );
 }
