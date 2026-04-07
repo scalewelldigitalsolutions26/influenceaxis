@@ -14,13 +14,13 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 md:px-6 md:pt-5">
+    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-3 md:px-6 md:pt-4">
       <div className="shell">
-        <div className="rounded-[28px] border border-white/70 bg-white/72 px-4 py-3 shadow-[0_24px_80px_rgba(7,17,31,0.12)] backdrop-blur-2xl md:px-5">
-          <div className="flex items-center justify-between gap-4">
+        <div className="rounded-[24px] border border-white/70 bg-white/72 px-4 py-2 shadow-[0_24px_80px_rgba(7,17,31,0.12)] backdrop-blur-2xl md:px-5 md:py-2.5">
+          <div className="flex items-center justify-between gap-3">
             <Logo showDescriptor={false} />
 
-            <nav className="hidden items-center gap-2 lg:flex">
+            <nav className="hidden items-center gap-1.5 lg:flex">
               {navigation.map((item) => {
                 const isActive =
                   item.href === "/" ? pathname === item.href : pathname.startsWith(item.href);
@@ -29,7 +29,7 @@ export default function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`rounded-full px-4 py-2 text-sm font-medium transition ${
+                    className={`rounded-full px-3.5 py-2 text-sm font-medium transition ${
                       isActive
                         ? "bg-[#07111f] text-white shadow-[0_12px_24px_rgba(7,17,31,0.18)]"
                         : "text-slate hover:bg-white/70 hover:text-ink"
@@ -42,12 +42,12 @@ export default function Navbar() {
             </nav>
 
             <div className="hidden items-center gap-3 lg:flex">
-              <OpenQuoteButton className="px-5 py-3">Get Quote</OpenQuoteButton>
+              <OpenQuoteButton className="px-4 py-2.5">Get Quote</OpenQuoteButton>
             </div>
 
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/5 bg-white/65 text-ink lg:hidden"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-black/5 bg-white/65 text-ink lg:hidden"
               onClick={() => setIsMenuOpen((current) => !current)}
               aria-label="Toggle navigation"
             >

@@ -41,8 +41,8 @@ export function buildMetadata({
       images: [
         {
           url: image,
-          width: 6250,
-          height: 6250,
+          width: 3235,
+          height: 1212,
           alt: `${siteConfig.name} preview image`
         }
       ]

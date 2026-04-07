@@ -14,11 +14,11 @@ export function Logo({
   theme = "light",
   showDescriptor = true
 }: LogoProps) {
-  const widthClass = compact
-    ? "w-[8.5rem] sm:w-[9.5rem]"
+  const heightClass = compact
+    ? "h-7 sm:h-8"
     : showDescriptor
-      ? "w-[13rem] sm:w-[15.5rem]"
-      : "w-[10rem] sm:w-[12rem]";
+      ? "h-10 sm:h-12"
+      : "h-8 sm:h-9";
   const shadowClass =
     theme === "dark" ? "drop-shadow-[0_18px_30px_rgba(0,0,0,0.32)]" : "";
 
@@ -27,10 +27,10 @@ export function Logo({
       <Image
         src="/influence-axis-logo.png"
         alt={siteConfig.name}
-        width={6250}
-        height={6250}
-        sizes="(max-width: 640px) 160px, (max-width: 1024px) 190px, 248px"
-        className={`h-auto ${widthClass} shrink-0 ${shadowClass}`}
+        width={3235}
+        height={1212}
+        sizes="(max-width: 640px) 140px, (max-width: 1024px) 180px, 220px"
+        className={`${heightClass} w-auto shrink-0 object-contain ${shadowClass}`}
       />
     </Link>
   );
